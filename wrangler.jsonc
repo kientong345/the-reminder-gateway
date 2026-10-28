@@ -1,0 +1,17 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "the-reminder-gateway",
+	"main": "src/index.ts",
+	"compatibility_date": "2026-10-06",
+	"observability": {
+		"enabled": true
+	},
+	"upload_source_maps": true,
+	"ai": {
+		"binding": "AI"
+	},
+	"vars": {
+		"GOOGLE_CALENDAR_ID": "primary",
+		"TIMEZONE": "Asia/Ho_Chi_Minh"
+	}
+}
